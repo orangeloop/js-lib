@@ -2,7 +2,7 @@
   "name": "js-lib",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/js-lib.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "gulp",
     "lint": "gulp lint",
@@ -45,13 +45,15 @@
     "isparta": "4.0.0",
     "json-loader": "0.5.4",
     "mocha": "3.0.2",
+    "moment": "^2.17.1",
     "sinon": "1.17.5",
     "sinon-chai": "2.8.0",
+    "underscore.string": "^3.3.4",
     "webpack": "1.13.2",
     "webpack-stream": "3.2.0"
   },
   "babelBoilerplateOptions": {
-    "entryFileName": "js-lib.js",
+    "entryFileName": "index.js",
     "mainVarName": "jsLib"
   }
 }
